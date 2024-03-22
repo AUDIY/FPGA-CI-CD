@@ -2,7 +2,7 @@
 
 `define check_equal(exp, val) \
     if (exp !== val) begin \
-        $display("[%0t] Error %m is not matched (exp: %h, val: %h)", $time, exp, val); \
+        $error("[%0t] Error %m is not matched (exp: %h, val: %h)", $time, exp, val); \
         $finish; \
     end
 
