@@ -3,7 +3,7 @@
 `define check_equal(exp, val) \
     if (exp !== val) begin \
         $error("[%0t] Error %m is not matched (exp: %h, val: %h)", $time, exp, val); \
-        $finish; \
+        //$finish; \
     end
 
 module tb_uart ();
