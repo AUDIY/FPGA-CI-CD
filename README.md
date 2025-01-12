@@ -1,4 +1,5 @@
 # FPGA-CI-CD
+[![MMUART CI](https://github.com/AUDIY/FPGA-CI-CD/actions/workflows/github-ci.yml/badge.svg)](https://github.com/AUDIY/FPGA-CI-CD/actions/workflows/github-ci.yml)  
 A demonstration of "Automation for FPGA Development with continuoous integration and delivery".
 
 ## Book
